@@ -1,0 +1,29 @@
+name: 사용 문의
+description: SDK 사용법이 궁금할 때
+title: "[문의] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        가입, API 자격 증명 발급, 계약 관련 문의는 SignOK팀(docu@kica.co.kr / 02-360-3040)으로 연락해 주세요.
+        먼저 [README](https://www.npmjs.com/package/@signok/sdk)와 패키지의 `FIRST_CYCLE.md`를 확인하면 빠르게 해결되는 경우가 많습니다.
+  - type: input
+    id: sdk-version
+    attributes:
+      label: "@signok/sdk 버전"
+      placeholder: "0.1.0"
+  - type: textarea
+    id: question
+    attributes:
+      label: 질문
+      description: 하려는 작업과 막힌 부분을 적어 주세요. 관련 코드가 있으면 함께 붙여 주세요.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 확인
+      options:
+        - label: client_secret, access_token, 개인정보를 포함하지 않았습니다.
+          required: true

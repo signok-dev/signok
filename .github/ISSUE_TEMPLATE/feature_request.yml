@@ -1,0 +1,29 @@
+name: 기능 요청
+description: 필요한 메서드나 개선 사항 제안
+title: "[기능] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제를 해결하고 싶나요?
+      description: 지금 SDK로 하기 어렵거나 불편한 점을 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 원하는 동작
+      description: 있었으면 하는 메서드, 옵션, 사용 예시
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 지금 쓰고 있는 우회 방법 (선택)
+      description: "예: `signok.request()`로 직접 호출"
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 확인
+      options:
+        - label: client_secret, access_token, 개인정보를 포함하지 않았습니다.
+          required: true

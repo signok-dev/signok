@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SDK 문서 (npm)
+    url: https://www.npmjs.com/package/@signok/sdk
+    about: 설치, 빠른 시작, 메서드 요약, 에러 코드를 먼저 확인해 주세요.
+  - name: 영업 문의 (가입·API 자격 증명 발급·계약·웹훅 등록)
+    url: https://github.com/signok-dev/signok#다른-문의
+    about: "SignOK팀 docu@kica.co.kr / 02-360-3040"
+  - name: 보안 취약점 제보
+    url: https://github.com/signok-dev/signok#보안
+    about: "공개 이슈로 등록하지 말고 kangms9098@kica.co.kr 로 제목에 [보안]을 붙여 비공개로 알려 주세요."
