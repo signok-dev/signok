@@ -54,8 +54,8 @@ npm install @signok/sdk
 
 | 문의 | 연락처 |
 |---|---|
-| 영업 문의 (가입, API 자격 증명 발급, 계약, 웹훅 등록) | SignOK팀 · docu@kica.co.kr · 02-360-3040 |
-| 기술 문의 (공개하기 어려운 내용) | kangms9098@kica.co.kr · 02-360-3156 |
+| 영업 문의 | SignOK팀 · docu@kica.co.kr · 02-360-3040 |
+| 기술 문의 | 개발팀 · kangms9098@kica.co.kr · 02-360-3156 |
 
 ## 보안
 
