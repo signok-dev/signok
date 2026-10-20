@@ -25,26 +25,15 @@ npm install @signok/sdk
 
 ## 이슈 등록
 
-[Issues → New issue](https://github.com/signok-dev/signok/issues/new)에서 등록해 주세요. 제목 앞에 유형을 붙여 주시면 빠르게 분류할 수 있습니다.
+[Issues → New issue](https://github.com/signok-dev/signok/issues/new/choose)에서 유형을 골라 양식에 맞춰 작성해 주세요.
 
-- `[버그]` SDK가 예상과 다르게 동작할 때
-- `[기능]` 필요한 메서드나 개선 사항이 있을 때
-- `[문의]` 사용법이 궁금할 때
+- **버그 제보:** SDK가 예상과 다르게 동작할 때
+- **기능 요청:** 필요한 메서드나 개선 사항이 있을 때
+- **사용 문의:** 사용법이 궁금할 때
 
 등록 전에 [기존 이슈](https://github.com/signok-dev/signok/issues?q=is%3Aissue)에 같은 내용이 있는지 확인해 주세요.
 
-버그 제보에는 아래 내용을 함께 적어 주세요.
-
-```
-- @signok/sdk 버전:        (npm ls @signok/sdk)
-- Node.js 버전:            (node -v)
-- 환경:                    staging / production
-- 호출한 메서드:           예) documents.createGeneralFromTemplate
-- 에러 정보:               에러 클래스, code, serverMessage, endpoint
-- 기대한 동작과 실제 동작:
-- 재현 코드 (자격 증명과 개인정보는 가려 주세요):
-- 문서 ID 또는 템플릿 ID (선택):
-```
+버그 제보 양식에서는 SDK 버전, Node.js 버전, 환경(staging/production), 호출한 메서드, 에러 정보(`code`, `serverMessage`, `endpoint`), 재현 코드를 받습니다.
 
 > [!WARNING]
 > **이슈는 누구나 볼 수 있습니다.** client_secret, access_token, 서명자 이름·연락처 같은 개인정보, 계약서 내용은 올리지 마세요.
